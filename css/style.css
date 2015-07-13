@@ -1,0 +1,40 @@
+* {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  box-sizing: border-box;
+}
+
+html, body, #map-container {
+  height: 100%;
+  margin: 0px;
+  padding: 0px
+}
+
+.search-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+li {
+ display: inline-block;
+}
+
+input[type="text"] {
+   margin: 0 10px;
+   width: 100px;
+   color: #999;
+}
+
+.error {
+  border: 1px solid #FA3A3A;
+}
+
+.message {
+  font-size: 14px;
+  color: #FA3A3A;
+  display: none;
+}
+
+.hidden { display: none; }
+
+.shown { display: block; }

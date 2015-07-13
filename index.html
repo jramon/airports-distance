@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Airport Distance</title>
+  <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+  <div class="search-container">
+    <ul>
+      <li>Distance</li>
+      <li><label for="from">from:</label><input type="text" name="from" value="" maxlength="3"/></li>
+      <li><label for="to">to:</label><input type="text" name="to" value="" maxlength="3"/></li>
+      <li><button type="button" name="submit">go!</button></li>
+    </ul>
+    <p class="message hidden">Please type a valid airport code</p>
+    <p class="hidden">Distance: <span class="result"></span></p>
+  </div>
+  <div id="map-container"></div>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxMYPdLY1ZU4j5QMWge4osC5xTo7YOASM&libraries=geometry"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
